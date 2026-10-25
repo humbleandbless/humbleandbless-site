@@ -149,6 +149,7 @@ section{padding:2.6rem 0}
 .vcard:hover{color:var(--brown)}
 .vthumb{display:block;position:relative;aspect-ratio:16/10;background:var(--cream-2)}
 .vthumb img{width:100%;height:100%;object-fit:cover}
+.vthumb picture{display:block;width:100%;height:100%}
 .vtag{position:absolute;left:.45rem;top:.45rem;background:var(--honey);color:#3b2412;font-weight:800;font-size:.72rem;padding:.1rem .5rem;border-radius:99px}
 .vplay{position:absolute;right:.45rem;bottom:.45rem;width:34px;height:34px;border-radius:50%;background:rgba(200,49,47,.92)}
 .vplay::after{content:"";position:absolute;left:13px;top:10px;border-left:11px solid #fff;border-top:7px solid transparent;border-bottom:7px solid transparent}
