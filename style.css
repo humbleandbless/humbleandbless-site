@@ -169,3 +169,34 @@ section{padding:2.6rem 0}
 .xmas-teaser picture{display:block;max-width:900px;margin:0 auto}
 .xmas-teaser img{width:100%}
 .xmas-caption{text-align:center;max-width:36rem;margin:.9rem auto 0;font-weight:700}
+
+/* Step Inside the Story: Bible Adventures series home + episode row */
+.series{background:linear-gradient(180deg,var(--blush-soft),var(--cream-2))}
+.series-head{max-width:40rem;margin:0 auto 1.3rem}
+.series-intro{font-family:var(--display);font-size:1.2rem;line-height:1.4;color:var(--brown-soft);margin:0}
+.ep-row{list-style:none;padding:0;margin:0;display:grid;grid-template-columns:1fr;gap:1rem}
+.ep-card{display:flex;flex-direction:column;background:var(--card);border-radius:var(--radius);box-shadow:var(--shadow);overflow:hidden;border:3px solid #fff;scroll-margin-top:80px;min-width:0}
+.ep-soon{border:3px dashed #9cc7e6;background:linear-gradient(180deg,#eaf4fb 0,var(--card) 60%)}
+.ep-thumb{display:block;position:relative;aspect-ratio:16/9;background:var(--cream-2)}
+.ep-thumb picture{display:block;width:100%;height:100%}
+.ep-thumb img{width:100%;height:100%;object-fit:cover}
+.ep-badge{position:absolute;left:.6rem;top:.6rem;background:var(--blush);color:#6e2436;font-weight:800;font-size:.8rem;padding:.15rem .65rem;border-radius:99px;box-shadow:0 2px 0 rgba(90,58,32,.15)}
+.ep-badge.ep-new{background:var(--honey);color:#3b2412}
+.ep-body{display:flex;flex-direction:column;align-items:flex-start;flex:1;padding:1rem 1.1rem 1.2rem}
+.ep-num{display:inline-block;font-weight:800;font-size:.78rem;letter-spacing:.06em;text-transform:uppercase;color:var(--blush-deep);margin-bottom:.15rem}
+.ep-body h3{font-size:1.35rem;margin:0 0 .35rem}
+.ep-body p{font-size:1rem;line-height:1.5;margin:0 0 .8rem}
+.ep-body .btn{margin-top:auto;font-size:1rem;padding:.65rem 1.15rem;max-width:100%}
+@media (min-width:700px){.ep-row{grid-template-columns:1fr 1fr}}
+@media (min-width:960px){.ep-row{grid-template-columns:repeat(3,1fr);gap:1.2rem}}
+/* videos.html: compact episode list */
+.ep-list{list-style:none;padding:0;margin:1rem 0}
+.ep-list li{display:grid;grid-template-columns:112px 1fr;gap:.8rem;align-items:start;padding:.7rem 0;border-top:2px dashed var(--honey-soft)}
+.ep-list li:first-child{border-top:0;padding-top:0}
+.ep-list img{width:112px;aspect-ratio:16/9;object-fit:cover;border-radius:10px;border:2px solid #fff;box-shadow:var(--shadow)}
+.ep-list .ep-num{display:block}
+.ep-list strong{display:block;font-family:var(--display);font-size:1.1rem;line-height:1.2}
+.ep-list p{margin:.25rem 0 .3rem;font-size:.95rem;line-height:1.45}
+.ep-list a.ep-watch{font-weight:800}
+.ep-soon .ep-badge{left:auto;right:.6rem}
+.series .ep-row + p{margin-top:1.4rem}
