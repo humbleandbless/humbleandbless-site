@@ -195,7 +195,7 @@ section{padding:2.6rem 0}
 .ep-body p{font-size:1rem;line-height:1.5;margin:0 0 .8rem}
 .ep-body .btn{margin-top:auto;font-size:1rem;padding:.65rem 1.15rem;max-width:100%}
 @media (min-width:700px){.ep-row{grid-template-columns:1fr 1fr}}
-@media (min-width:960px){.ep-row{grid-template-columns:repeat(3,1fr);gap:1.2rem}}
+@media (min-width:1100px){.ep-row{grid-template-columns:repeat(4,1fr);gap:1.1rem}}
 /* videos.html: compact episode list */
 .ep-list{list-style:none;padding:0;margin:1rem 0}
 .ep-list li{display:grid;grid-template-columns:112px 1fr;gap:.8rem;align-items:start;padding:.7rem 0;border-top:2px dashed var(--honey-soft)}
